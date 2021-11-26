@@ -1,5 +1,12 @@
-import React from "react"
+import React from "react";
+import MiniDrawer from "../components/drawer";
+import Card from "../components/Card"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  
+  return <div>
+    <MiniDrawer/>
+    <Card/>
+    {/* Hello World */}
+    </div>
 }
